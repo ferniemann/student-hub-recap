@@ -1,0 +1,114 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-main: #6A1CC3;
+  --clr-secondary: #8849CF;
+  --clr-sub-headings: rgb(0 0 0 / .6);
+  --clr-placeholder: #4B148A61;
+
+}
+
+html {
+  font-family: "Source Sans 3";
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main {
+  margin-block: 3.125rem;
+  margin-inline: 2rem;
+}
+
+h1, h2 {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  margin-block: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 1rem;
+
+}
+
+h2 {
+  font-size: 1.125rem;
+  color: var(--clr-main);
+}
+
+p {
+  margin-block: 0;
+}
+
+.page-header {
+  background-color: var(--clr-main);
+
+  padding-block: 3rem 0;
+  padding-inline: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.arrows-wrapper {
+  position: relative;
+}
+
+.arrow {
+  height: 2rem;
+
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%)
+}
+
+.arrow-main {
+  background-color: var(--clr-main);
+}
+
+.arrow-shadow {
+  background-color: var(--clr-secondary);
+
+  width: 100%;
+
+  position: absolute;
+  top: .5rem;
+  z-index: -1;
+}
+
+.students-search {
+  width: 100%;
+  margin-block: 1rem;
+}
+
+.select-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.select-wrapper > * {
+  flex-grow: 1;
+}
+
+.student-card {
+  border: .125rem solid var(--clr-main);
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.student-icon {
+  background-color: var(--clr-main);
+
+  width: 2rem;
+  padding:.5rem;
+  border-radius: .125rem
+}

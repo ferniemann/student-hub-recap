@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.bunny.net/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.bunny.net/css?family=Source+Sans+3:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet" />
+    <title>Student Hub Example</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <svg
+        width="32"
+        height="24"
+        viewBox="0 0 32 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 2C0 0.89543 0.89543 0 2 0H30C31.1046 0 32 0.89543 32 2C32 3.10457 31.1046 4 30 4H2C0.89543 4 0 3.10457 0 2ZM0 12C0 10.8954 0.89543 10 2 10H30C31.1046 10 32 10.8954 32 12C32 13.1046 31.1046 14 30 14H2C0.89543 14 0 13.1046 0 12ZM0 22C0 20.8954 0.89543 20 2 20H30C31.1046 20 32 20.8954 32 22C32 23.1046 31.1046 24 30 24H2C0.89543 24 0 23.1046 0 22Z"
+          fill="#FBFBFB" />
+      </svg>
+      <h1>Coding Bootcamps Europe</h1>
+    </header>
+    <div class="arrows-wrapper">
+      <div class="arrow arrow-main"></div>
+      <div class="arrow arrow-shadow"></div>
+    </div>
+    <main>
+      <form>
+        <h2>Students</h2>
+        <p class="sub-heading">Your fellow students</p>
+        <section class="search_wrapper">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            class="students-search"
+            placeholder="Search for students names" />
+        </section>
+        <section class="select-wrapper">
+          <select name="class" id="class">
+            <option value="november21">NovemberClass2021</option>
+          </select>
+          <select name="type" id="type">
+            <option value="full-time">Full-time</option>
+          </select>
+        </section>
+      </form>
+      <article class="students-wrapper">
+        <h3>Full-time November Class of 2021</h3>
+        <section class="student-card">
+          <svg
+            viewBox="0 0 15 15"
+            fill="none"
+            class="student-icon"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M7.5 7.5C8.49456 7.5 9.44839 7.10491 10.1517 6.40165C10.8549 5.69839 11.25 4.74456 11.25 3.75C11.25 2.75544 10.8549 1.80161 10.1517 1.09835C9.44839 0.395088 8.49456 0 7.5 0C6.50544 0 5.55161 0.395088 4.84835 1.09835C4.14509 1.80161 3.75 2.75544 3.75 3.75C3.75 4.74456 4.14509 5.69839 4.84835 6.40165C5.55161 7.10491 6.50544 7.5 7.5 7.5ZM10 3.75C10 4.41304 9.73661 5.04893 9.26777 5.51777C8.79893 5.98661 8.16304 6.25 7.5 6.25C6.83696 6.25 6.20107 5.98661 5.73223 5.51777C5.26339 5.04893 5 4.41304 5 3.75C5 3.08696 5.26339 2.45107 5.73223 1.98223C6.20107 1.51339 6.83696 1.25 7.5 1.25C8.16304 1.25 8.79893 1.51339 9.26777 1.98223C9.73661 2.45107 10 3.08696 10 3.75ZM15 13.75C15 15 13.75 15 13.75 15H1.25C1.25 15 0 15 0 13.75C0 12.5 1.25 8.75 7.5 8.75C13.75 8.75 15 12.5 15 13.75ZM13.75 13.745C13.7487 13.4375 13.5575 12.5125 12.71 11.665C11.895 10.85 10.3612 10 7.5 10C4.6375 10 3.105 10.85 2.29 11.665C1.4425 12.5125 1.2525 13.4375 1.25 13.745H13.75Z"
+              fill="#FBFBFB" />
+          </svg>
+          <section class="student-info">
+            <p class="student-name">Dmitry Kolesnikov</p>
+            <a href="#" class="student-link">github.com/Dimi87</a>
+          </section>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
